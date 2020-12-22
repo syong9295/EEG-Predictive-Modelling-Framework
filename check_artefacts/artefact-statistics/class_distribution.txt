@@ -1,2 +1,2 @@
-products with 'Like' as label : 383
-products with 'Dislike' as label : 503
+products with 'Like' as label : 372
+products with 'Dislike' as label : 497

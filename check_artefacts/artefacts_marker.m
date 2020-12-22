@@ -27,12 +27,12 @@ for i = 1 : filt_data_no % for each of the 1025 products
 %     end
     
     %if we only take af3 and af4 channels
-    if any(data(:, 1) > 100) || any(data(:, 1) < -100)  % af3 channel
+    if any(data(:, 1) > 90) || any(data(:, 1) < -90)  % af3 channel
             artefact_counter = artefact_counter + 1;
             text = strcat(folder_content(i).name, ' channel 1 (af3)','\n');
             fprintf(fileID, text);
     end 
-    if any(data(:, 14) > 100) || any(data(:, 14) < -100) % af4 channel
+    if any(data(:, 14) > 90) || any(data(:, 14) < -90) % af4 channel
             artefact_counter = artefact_counter + 1;
             text = strcat(folder_content(i).name, ' channel 14 (af4)','\n\n');
             fprintf(fileID, text);

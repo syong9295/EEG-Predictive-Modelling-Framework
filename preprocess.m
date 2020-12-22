@@ -15,10 +15,14 @@ LowPassFc=45;
 %Filters
 signalFilt=[];
 for i=1:c %apply for all channels
-%     feeg3=FilterNotchEEG(data(:,i),fs,50); %50 Hz notch filter
-%     feeg2=FilterHighEEG(feeg3,fs,HighPassFc);
+    % Chebyshev filters
     feeg2=FilterHighEEG(data(:,i),fs,HighPassFc);
     feeg=FilterLowEEG(feeg2,fs,LowPassFc);
+    
+    % Butterworth 4th order filters
+%     feeg2=highPassFilter(data(:,i),fs,HighPassFc);
+%     feeg=lowPassFilter(feeg2,fs,LowPassFc);
+    
     signalFilt=[signalFilt feeg];
 end 
 

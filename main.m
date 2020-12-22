@@ -14,15 +14,20 @@ if not(isfolder('filtered_data'))
     mkdir('filtered_data');
 end
 
-% for each of the 1025 products
+% preprocess all 1025 EEG data files
 for i = 1 : data_no 
     data = load(fullfile("ori_data/",folder_content(i).name));
-    
-    % preprocessing
     data_filtered = preprocess(data, FS);
     writematrix(data_filtered, "filtered_data/" + folder_content(i).name, 'Delimiter', 'space');
-    
+   
 end
+    
+% remove files containing artefacts and compute statistics
+compute_artefact_statistics();
+    
+% feature extraction
+extract_features(FS, CHANNEL_NO);
+
 
 
 

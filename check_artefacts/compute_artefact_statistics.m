@@ -1,3 +1,4 @@
+function[] = compute_artefact_statistics()
 % this script invokes all related function to compute all the artefact
 % statistics as txt files in check_artefacts\artefact-statistics
 
@@ -19,3 +20,7 @@ remaining_file_per_product();
 
 % compute how many remaining files are left for each subject
 remaining_file_per_subject();
+
+% separate remaining files according to labels
+separate_remaining_files();
+

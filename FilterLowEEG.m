@@ -15,5 +15,4 @@ function [feeg]=FilterLowEEG(a,fs,fc)
 
         %apply the filter
         feeg = filtfilt(b,ar,a);
-        % Done.
         

@@ -5,16 +5,21 @@ Abhishek_20.txt channel 1 (af3)
 Abhishek_22.txt channel 1 (af3)
 Abhishek_24.txt channel 1 (af3)
 Abhishek_27.txt channel 1 (af3)
+Abhishek_27.txt channel 14 (af4)
+
 Abhishek_3.txt channel 1 (af3)
 Abhishek_32.txt channel 1 (af3)
 Abhishek_33.txt channel 1 (af3)
 Abhishek_34.txt channel 1 (af3)
 Abhishek_41.txt channel 1 (af3)
+Abhishek_5.txt channel 1 (af3)
 Abhishek_6.txt channel 1 (af3)
 Abhishek_8.txt channel 1 (af3)
 Ankur_sir_1.txt channel 1 (af3)
 Ankur_sir_17.txt channel 1 (af3)
 Ankur_sir_2.txt channel 14 (af4)
+
+Gautam_123_21.txt channel 14 (af4)
 
 Gautam_13.txt channel 1 (af3)
 Gautam_14.txt channel 1 (af3)
@@ -34,13 +39,20 @@ Mohit_12.txt channel 1 (af3)
 Mohit_12.txt channel 14 (af4)
 
 Mohit_13.txt channel 1 (af3)
+Mohit_13.txt channel 14 (af4)
+
+Mohit_14.txt channel 1 (af3)
 Mohit_16.txt channel 1 (af3)
 Mohit_17.txt channel 1 (af3)
 Mohit_18.txt channel 1 (af3)
+Mohit_19.txt channel 1 (af3)
 Mohit_19.txt channel 14 (af4)
 
 Mohit_2.txt channel 1 (af3)
+Mohit_21.txt channel 1 (af3)
 Mohit_25.txt channel 1 (af3)
+Mohit_25.txt channel 14 (af4)
+
 Mohit_3.txt channel 1 (af3)
 Mohit_34.txt channel 1 (af3)
 Mohit_4.txt channel 1 (af3)
@@ -72,6 +84,8 @@ Ravi_baba_16.txt channel 14 (af4)
 Ravi_baba_17.txt channel 14 (af4)
 
 Ravi_baba_19.txt channel 1 (af3)
+Ravi_baba_19.txt channel 14 (af4)
+
 Ravi_baba_2.txt channel 14 (af4)
 
 Ravi_baba_20.txt channel 1 (af3)
@@ -83,6 +97,8 @@ Ravi_baba_25.txt channel 14 (af4)
 Ravi_baba_27.txt channel 1 (af3)
 Ravi_baba_28.txt channel 1 (af3)
 Ravi_baba_3.txt channel 14 (af4)
+
+Ravi_baba_31.txt channel 14 (af4)
 
 Ravi_baba_4.txt channel 14 (af4)
 
@@ -101,6 +117,7 @@ Ravi_ph_2.txt channel 1 (af3)
 Ravi_ph_29.txt channel 1 (af3)
 Ravi_ph_37.txt channel 1 (af3)
 Ravi_ph_6.txt channel 1 (af3)
+Ravi_ph_7.txt channel 1 (af3)
 Ravi_ph_9.txt channel 1 (af3)
 Rockysingh_26.txt channel 1 (af3)
 Rockysingh_26.txt channel 14 (af4)
@@ -114,12 +131,16 @@ Rupak_29.txt channel 1 (af3)
 Rupak_33.txt channel 1 (af3)
 Rupak_34.txt channel 1 (af3)
 Rupak_38.txt channel 1 (af3)
+Rupak_4.txt channel 1 (af3)
 Rupak_40.txt channel 1 (af3)
 Rupak_9.txt channel 1 (af3)
 Sachin_27.txt channel 1 (af3)
 Sandeep_1.txt channel 1 (af3)
+Sandeep_10.txt channel 1 (af3)
 Sandeep_18.txt channel 1 (af3)
+Sandeep_2.txt channel 1 (af3)
 Sandeep_20.txt channel 1 (af3)
+Sandeep_21.txt channel 1 (af3)
 Sandeep_27.txt channel 1 (af3)
 Sandeep_29.txt channel 1 (af3)
 Sandeep_3.txt channel 1 (af3)
@@ -140,6 +161,10 @@ Soumendu_10.txt channel 14 (af4)
 
 Soumendu_11.txt channel 14 (af4)
 
+Soumendu_12.txt channel 14 (af4)
+
+Soumendu_13.txt channel 14 (af4)
+
 Soumendu_2.txt channel 14 (af4)
 
 Soumendu_3.txt channel 14 (af4)
@@ -153,6 +178,7 @@ Vijay_26.txt channel 14 (af4)
 
 Vijay_28.txt channel 14 (af4)
 
+Viraj_1_30.txt channel 1 (af3)
 Viraj_1_8.txt channel 1 (af3)
 Viraj_1_9.txt channel 1 (af3)
 Viraj_1_9.txt channel 14 (af4)
@@ -182,6 +208,7 @@ pawan_sahu_41.txt channel 14 (af4)
 pawan_sahu_8.txt channel 14 (af4)
 
 pradeep_10.txt channel 1 (af3)
+pradeep_19.txt channel 1 (af3)
 pradeep_20.txt channel 1 (af3)
 pradeep_21.txt channel 1 (af3)
 pradeep_27.txt channel 1 (af3)
@@ -194,7 +221,13 @@ taufiq_14.txt channel 14 (af4)
 taufiq_17.txt channel 1 (af3)
 taufiq_17.txt channel 14 (af4)
 
+taufiq_18.txt channel 14 (af4)
+
+taufiq_26.txt channel 14 (af4)
+
 taufiq_32.txt channel 14 (af4)
+
+taufiq_38.txt channel 14 (af4)
 
 taufiq_40.txt channel 14 (af4)
 
