@@ -28,8 +28,14 @@ compute_artefact_statistics();
 % feature extraction
 extract_features(FS, CHANNEL_NO);
 
+% feature selection & feature concatenation
+process_features();
 
+% separate data according to brain regions
+separate_to_brain_parts();
 
+% separate data according to subjects
+separate_to_subjects();
 
 
 
