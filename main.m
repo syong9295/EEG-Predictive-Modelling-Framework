@@ -21,7 +21,7 @@ for i = 1 : data_no
     writematrix(data_filtered, "datasets\filtered_data\" + folder_content(i).name, 'Delimiter', 'space');
 end
 
-% drop artifact-data and compute their statistics
+% reject artifacts and compute their statistics
 process_artifacts();
 
 % feature extraction
