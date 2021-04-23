@@ -3,8 +3,8 @@ function[] = extract_features(FS, CHANNEL_NO)
 % initializations
 % folder_content_like = dir("check_artefacts/data-reduced-like/*.txt");
 % folder_content_dislike = dir("check_artefacts/data-reduced-dislike/*.txt");
-folder_content_like = dir("datasets\artifact_free_like_data\*.txt");
-folder_content_dislike = dir("datasets\artifact_free_dislike_data\*.txt");
+folder_content_like = dir("datasets\artefact_free_like_data\*.txt");
+folder_content_dislike = dir("datasets\artefact_free_dislike_data\*.txt");
 like_data_no = numel(folder_content_like);
 dislike_data_no = numel(folder_content_dislike);
 total_data_no = like_data_no + dislike_data_no;
@@ -39,12 +39,12 @@ for i = 1 : total_data_no % for each EEG file
     
     if i <= like_data_no
 %         data = load(fullfile("check_artefacts\data-reduced-like\",folder_content_like(i).name));
-        data = load(fullfile("datasets\artifact_free_like_data\",folder_content_like(i).name));
+        data = load(fullfile("datasets\artefact_free_like_data\",folder_content_like(i).name));
         isLike = 1;
     else
         new_index = i - like_data_no;
 %         data = load(fullfile("check_artefacts\data-reduced-dislike\",folder_content_dislike(new_index).name));
-        data = load(fullfile("datasets\artifact_free_dislike_data\",folder_content_dislike(new_index).name));
+        data = load(fullfile("datasets\artefact_free_dislike_data\",folder_content_dislike(new_index).name));
         isLike = 0;
     end
     

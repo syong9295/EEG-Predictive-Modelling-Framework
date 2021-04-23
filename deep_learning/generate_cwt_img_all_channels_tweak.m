@@ -1,4 +1,4 @@
-function[] = generate_cwt_img_all_channels()
+function[] = generate_cwt_img_all_channels_tweak()
 
 % initializations
 folder_content_data = dir("datasets\artifact_free_data\*.txt");
@@ -7,18 +7,18 @@ data_no = numel(folder_content_data);
 CHANNEL_NO = 14;
 SIGNAL_LENGTH = 512;
 FS = 128;
-fb = cwtfilterbank('SignalLength', SIGNAL_LENGTH, 'SamplingFrequency', FS, 'VoicesPerOctave', 48);
-
-if not(isfolder('datasets\cwt_img'))
-    mkdir('datasets\cwt_img');
+% 'VoicesPerOctave' param is changed to default value of 10
+fb = cwtfilterbank('SignalLength', SIGNAL_LENGTH, 'SamplingFrequency', FS, 'VoicesPerOctave', 10);
+if not(isfolder('datasets\cwt_img_tweak'))
+    mkdir('datasets\cwt_img_tweak');
 end
-if not(isfolder('datasets\cwt_img\Like'))
-    mkdir('datasets\cwt_img\Like');
+if not(isfolder('datasets\cwt_img_tweak\Like'))
+    mkdir('datasets\cwt_img_tweak\Like');
 end
-if not(isfolder('datasets\cwt_img\Disike')) %ignore the typo
-    mkdir('datasets\cwt_img\Disike');
+if not(isfolder('datasets\cwt_img_tweak\Disike')) %ignore the typo
+    mkdir('datasets\cwt_img_tweak\Disike');
 end
-img_root = "datasets\cwt_img";
+img_root = "datasets\cwt_img_tweak";
 
 % loop through 869 artifact-free EEG data, and 869 labels at the same time
 for i = 1 : data_no

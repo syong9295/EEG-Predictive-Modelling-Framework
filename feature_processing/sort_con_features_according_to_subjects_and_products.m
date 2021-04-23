@@ -3,8 +3,8 @@ function[] = sort_con_features_according_to_subjects_and_products()
 % list containing name and product no. information
 % folder_content_like = dir("check_artefacts/data-reduced-like/*.txt");
 % folder_content_dislike = dir("check_artefacts/data-reduced-dislike/*.txt");
-folder_content_like = dir("datasets\artifact_free_like_data\*.txt");
-folder_content_dislike = dir("datasets\artifact_free_dislike_data\*.txt");
+folder_content_like = dir("datasets\artefact_free_like_data\*.txt");
+folder_content_dislike = dir("datasets\artefact_free_dislike_data\*.txt");
 like_data_no = numel(folder_content_like);
 dislike_data_no = numel(folder_content_dislike);
 total_data_no = like_data_no + dislike_data_no;
