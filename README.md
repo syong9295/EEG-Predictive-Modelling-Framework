@@ -4,6 +4,14 @@ This repository contains the code for the final year project of "Predictive Mode
 # Description
 A neuromarketing framework for prediction of consumer preferences using EEG signals and several state-of-the-art machine learning classifiers.
 
+# Prerequisite toolboxes
+In order to reproduce the exact steps done in this project, the following toolboxes must be installed in MATLAB.
+1. Image Processing Toolbox
+2. Signal Processing Toolbox
+3. Statistics and Machine Learning Toolbox
+4. Deep Learning Toolbox
+5. Wavelet Toolbox
+
 # How to run
 Either download the zip file or git clone this project.
 
